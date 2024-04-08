@@ -14,7 +14,7 @@ const animalSchema = mongoose.Schema({
     },
     fecha: {
         type: Date,
-        requiered: flase,
+        required: false,
     }
 });
 module.exports = mongoose.model("Animal", animalSchema);
